@@ -36,7 +36,7 @@ export default function Footer() {
             <p className="text-sm text-ink-muted leading-relaxed max-w-xs">
               Premium riding gear and essential motorcycle accessories for riders who demand more from every journey.
             </p>
-            <p className="text-xs text-accent font-bold tracking-wider">GEAR UP. RIDE BEYOND.</p>
+            <p className="text-xs text-accent font-bold tracking-wider">GEAR UP. RIDE FREE.</p>
           </div>
 
           {/* Shop Links */}
