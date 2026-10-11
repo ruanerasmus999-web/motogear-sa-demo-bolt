@@ -61,7 +61,7 @@ export default function HomePage() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-ink leading-[1.05] mb-6 text-balance animate-fade-up">
               GEAR UP.
               <br />
-              <span className="text-accent">RIDE BEYOND.</span>
+              <span className="text-accent">RIDE FREE.</span>
             </h1>
             <p className="text-base md:text-lg text-ink-muted leading-relaxed max-w-lg mb-8 animate-fade-up">
               Premium riding gear and essential motorcycle accessories for riders who demand more from every journey.
@@ -216,7 +216,7 @@ export default function HomePage() {
             </p>
             <p className="text-ink-muted leading-relaxed mb-6">
               Whether you ride to work, escape on weekends, or chase horizons across South Africa, our collection is
-              built to help you gear up and ride beyond.
+              built to help you gear up and ride free.
             </p>
             <Link to="/about" className="btn-secondary group">
               Our Story
