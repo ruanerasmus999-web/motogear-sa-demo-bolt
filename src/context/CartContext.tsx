@@ -30,11 +30,8 @@ function loadCart(): CartItem[] {
 }
 
 export function CartProvider({ children }: { children: ReactNode }) {
-  const [items, setItems] = useState<CartItem[]>([]);
-
-  useEffect(() => {
-    setItems(loadCart());
-  }, []);
+  // Load saved cart items before saving cart state.
+  const [items, setItems] = useState<CartItem[]>(() => loadCart());
 
   useEffect(() => {
     try {
