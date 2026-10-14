@@ -11,6 +11,8 @@ const allCategories: ProductCategory[] = [
   'Open-face Helmets',
   'Touring Helmets',
   'Riding Jackets',
+  'Second-Hand Jackets',
+  'Second-Hand Waistcoats',
   'Leather Gloves',
   'Textile Gloves',
   'Riding Boots',

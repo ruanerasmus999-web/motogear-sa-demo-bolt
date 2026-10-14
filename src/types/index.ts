@@ -7,7 +7,7 @@ export interface Product {
   description: string;
   features: string[];
   images: string[];
-  badge?: 'BEST SELLER' | 'NEW ARRIVAL' | 'LIMITED' | 'SALE';
+  badge?: 'BEST SELLER' | 'NEW ARRIVAL' | 'LIMITED' | 'SALE' | 'PRE-OWNED';
   featured: boolean;
   sizes?: string[];
   colors?: string[];
@@ -30,7 +30,9 @@ export type ProductCategory =
   | 'Helmet Visors'
   | 'Base Layers'
   | 'Luggage'
-  | 'General Accessories';
+  | 'General Accessories'
+  | 'Second-Hand Jackets'
+  | 'Second-Hand Waistcoats';
 
 export interface CategoryGroup {
   label: string;

@@ -13,6 +13,7 @@ const badgeStyles: Record<string, string> = {
   'NEW ARRIVAL': 'bg-success text-base',
   LIMITED: 'bg-warning text-base',
   SALE: 'bg-error text-base',
+  'PRE-OWNED': 'bg-warning text-base',
 };
 
 export default function ProductCard({ product }: ProductCardProps) {
