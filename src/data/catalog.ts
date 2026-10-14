@@ -40,6 +40,12 @@ export const categories: CategoryGroup[] = [
     image: 'https://images.pexels.com/photos/3855226/pexels-photo-3855226.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop',
     subCategories: ['Phone Mounts', 'Tank Bags', 'Security Locks', 'Luggage', 'General Accessories'],
   },
+  {
+    label: 'Second-Hand Gear',
+    slug: 'second-hand',
+    image: 'https://images.pexels.com/photos/15732213/pexels-photo-15732213.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop',
+    subCategories: ['Second-Hand Jackets', 'Second-Hand Waistcoats'],
+  },
 ];
 
 export const products: Product[] = [
@@ -303,6 +309,36 @@ export const products: Product[] = [
     sizes: [],
     colors: ['Black'],
     sku: 'MG-ACC-TLK-018',
+  },
+  {
+    id: 'preowned-riding-jacket-demo',
+    name: 'Pre-Owned Riding Jacket (Demo Listing)',
+    category: 'Second-Hand Jackets',
+    price: 950,
+    description:
+      'Illustrative second-hand riding jacket listing for the demo store. The actual item, condition, size, protective features and availability must be confirmed by the shop owner before this listing is used for real sales.',
+    features: ['Pre-owned item category', 'Condition to be confirmed', 'Size and fit to be confirmed', 'Protective features to be verified', 'One-off item concept'],
+    images: [img('15732213'), img('28535668'), img('10881299')],
+    badge: 'PRE-OWNED',
+    featured: false,
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: [],
+    sku: 'MG-USED-JKT-DEMO',
+  },
+  {
+    id: 'preowned-motorcycle-waistcoat-demo',
+    name: 'Pre-Owned Motorcycle Waistcoat (Demo Listing)',
+    category: 'Second-Hand Waistcoats',
+    price: 650,
+    description:
+      'Illustrative second-hand motorcycle waistcoat listing for the demo store. The actual item, condition, size, materials and availability must be confirmed by the shop owner before this listing is used for real sales.',
+    features: ['Pre-owned item category', 'Condition to be confirmed', 'Size and fit to be confirmed', 'Materials and protective features to be verified', 'One-off item concept'],
+    images: [img('5015285'), img('7099821')],
+    badge: 'PRE-OWNED',
+    featured: false,
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: [],
+    sku: 'MG-USED-WST-DEMO',
   },
 ];
 
