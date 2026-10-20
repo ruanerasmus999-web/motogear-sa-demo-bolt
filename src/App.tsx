@@ -43,7 +43,7 @@ function NotFoundPage() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <CartProvider>
         <ScrollToTop />
         <div className="min-h-screen bg-base text-ink flex flex-col">
